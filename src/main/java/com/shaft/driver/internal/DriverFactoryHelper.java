@@ -222,6 +222,7 @@ public class DriverFactoryHelper {
                     ffProfile.setPreference("browser.cache.offline.enable", false);
                     ffProfile.setPreference("network.http.use-cache", false);
                 }
+                // comment for commit
                 ffOptions.setLogLevel(FirefoxDriverLogLevel.WARN);
                 ffOptions.setPageLoadStrategy(PageLoadStrategy.EAGER);
                 ffOptions.setPageLoadTimeout(Duration.ofSeconds(SHAFT.Properties.timeouts.pageLoadTimeout()));
